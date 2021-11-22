@@ -4,6 +4,9 @@
 
 package betMoreGameMultipleClassError;
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class Game_Chair {
 
 	public static Player computer = new Player("Computer");
@@ -16,6 +19,7 @@ public class Game_Chair {
 		player_2.start();
 		System.out.println(computer.getPlayer_number());
 		System.out.println(player_2.getPlayer_number());
+		player_2.shuffle();
 	}
 
 }
