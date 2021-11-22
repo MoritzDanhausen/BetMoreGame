@@ -1,4 +1,4 @@
-package betMoreGame;
+package betMoreGameOneClassRunning;
 
 import java.util.Random;
 import java.util.Scanner;
